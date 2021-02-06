@@ -12,6 +12,7 @@ struct CourseItem: View {
         VStack(alignment: .leading, spacing: 4.0) {
             Spacer()
             HStack {
+                Spacer()
                 Image("Illustration 1")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
