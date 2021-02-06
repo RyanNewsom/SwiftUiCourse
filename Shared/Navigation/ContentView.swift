@@ -13,7 +13,7 @@ struct ContentView: View {
         #if os(iOS)
         Sidebar()
         #else
-        SiderBar()
+        Sidebar()
             .frame(minWidth: 1000, minHeight: 600)
         #endif
     }
