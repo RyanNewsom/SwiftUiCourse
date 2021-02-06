@@ -19,6 +19,8 @@
 		4D136D0525CF24F700C34213 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D136CEF25CF24F700C34213 /* Assets.xcassets */; };
 		4DBE890225CF48DE001EA789 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBE890125CF48DE001EA789 /* Course.swift */; };
 		4DBE890325CF48DE001EA789 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBE890125CF48DE001EA789 /* Course.swift */; };
+		4DBE890C25CF5287001EA789 /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBE890B25CF5287001EA789 /* CloseButton.swift */; };
+		4DBE890D25CF5287001EA789 /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBE890B25CF5287001EA789 /* CloseButton.swift */; };
 		4DD50CD525CF2CBF00EADDDC /* CourseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD50CD425CF2CBF00EADDDC /* CourseRow.swift */; };
 		4DD50CD625CF2CBF00EADDDC /* CourseRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD50CD425CF2CBF00EADDDC /* CourseRow.swift */; };
 		4DD50CDA25CF2ECA00EADDDC /* CoursesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD50CD925CF2ECA00EADDDC /* CoursesView.swift */; };
@@ -39,6 +41,7 @@
 		4D136CFE25CF24F700C34213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D136CFF25CF24F700C34213 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		4DBE890125CF48DE001EA789 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		4DBE890B25CF5287001EA789 /* CloseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseButton.swift; sourceTree = "<group>"; };
 		4DD50CD425CF2CBF00EADDDC /* CourseRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseRow.swift; sourceTree = "<group>"; };
 		4DD50CD925CF2ECA00EADDDC /* CoursesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesView.swift; sourceTree = "<group>"; };
 		4DD50CDE25CF2FA800EADDDC /* Sidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar.swift; sourceTree = "<group>"; };
@@ -99,6 +102,7 @@
 				4D00C06225CF36F600CAD444 /* Items */,
 				4D136CEF25CF24F700C34213 /* Assets.xcassets */,
 				4DD50CD925CF2ECA00EADDDC /* CoursesView.swift */,
+				4DBE890B25CF5287001EA789 /* CloseButton.swift */,
 				4D00C06525CF375E00CAD444 /* CourseList.swift */,
 			);
 			path = Shared;
@@ -238,6 +242,7 @@
 				4DBE890225CF48DE001EA789 /* Course.swift in Sources */,
 				4DD50CDF25CF2FA800EADDDC /* Sidebar.swift in Sources */,
 				4D00C05B25CF362F00CAD444 /* CourseItem.swift in Sources */,
+				4DBE890C25CF5287001EA789 /* CloseButton.swift in Sources */,
 				4D136D0225CF24F700C34213 /* ContentView.swift in Sources */,
 				4DD50CD525CF2CBF00EADDDC /* CourseRow.swift in Sources */,
 				4D136D0025CF24F700C34213 /* DesignCodeCourseApp.swift in Sources */,
@@ -253,6 +258,7 @@
 				4DBE890325CF48DE001EA789 /* Course.swift in Sources */,
 				4DD50CE025CF2FA800EADDDC /* Sidebar.swift in Sources */,
 				4D00C05C25CF362F00CAD444 /* CourseItem.swift in Sources */,
+				4DBE890D25CF5287001EA789 /* CloseButton.swift in Sources */,
 				4D136D0325CF24F700C34213 /* ContentView.swift in Sources */,
 				4DD50CD625CF2CBF00EADDDC /* CourseRow.swift in Sources */,
 				4D136D0125CF24F700C34213 /* DesignCodeCourseApp.swift in Sources */,
