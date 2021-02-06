@@ -95,10 +95,10 @@
 			children = (
 				4D136CED25CF24F600C34213 /* DesignCodeCourseApp.swift */,
 				4D00C05F25CF36E200CAD444 /* Navigation */,
+				4DBE890625CF4B60001EA789 /* Model */,
 				4D00C06225CF36F600CAD444 /* Items */,
 				4D136CEF25CF24F700C34213 /* Assets.xcassets */,
 				4DD50CD925CF2ECA00EADDDC /* CoursesView.swift */,
-				4DBE890125CF48DE001EA789 /* Course.swift */,
 				4D00C06525CF375E00CAD444 /* CourseList.swift */,
 			);
 			path = Shared;
@@ -128,6 +128,14 @@
 				4D136CFF25CF24F700C34213 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		4DBE890625CF4B60001EA789 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4DBE890125CF48DE001EA789 /* Course.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
