@@ -17,6 +17,7 @@
 		4D136D0325CF24F700C34213 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D136CEE25CF24F600C34213 /* ContentView.swift */; };
 		4D136D0425CF24F700C34213 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D136CEF25CF24F700C34213 /* Assets.xcassets */; };
 		4D136D0525CF24F700C34213 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D136CEF25CF24F700C34213 /* Assets.xcassets */; };
+		4DBC25A125CF5E1F0086F6F8 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBC25A025CF5E1F0086F6F8 /* TabBar.swift */; };
 		4DBE890225CF48DE001EA789 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBE890125CF48DE001EA789 /* Course.swift */; };
 		4DBE890325CF48DE001EA789 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBE890125CF48DE001EA789 /* Course.swift */; };
 		4DBE890C25CF5287001EA789 /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBE890B25CF5287001EA789 /* CloseButton.swift */; };
@@ -58,6 +59,7 @@
 		4D136CFC25CF24F700C34213 /* DesignCodeCourse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignCodeCourse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D136CFE25CF24F700C34213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D136CFF25CF24F700C34213 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		4DBC25A025CF5E1F0086F6F8 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		4DBE890125CF48DE001EA789 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 		4DBE890B25CF5287001EA789 /* CloseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseButton.swift; sourceTree = "<group>"; };
 		4DBE891025CF547A001EA789 /* CourseDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetail.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 			children = (
 				4DD50CDE25CF2FA800EADDDC /* Sidebar.swift */,
 				4D136CEE25CF24F600C34213 /* ContentView.swift */,
+				4DBC25A025CF5E1F0086F6F8 /* TabBar.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 			files = (
 				4DBE890225CF48DE001EA789 /* Course.swift in Sources */,
 				4DBE891C25CF5595001EA789 /* TutorialSection.swift in Sources */,
+				4DBC25A125CF5E1F0086F6F8 /* TabBar.swift in Sources */,
 				4DD50CDF25CF2FA800EADDDC /* Sidebar.swift in Sources */,
 				4D00C05B25CF362F00CAD444 /* CourseItem.swift in Sources */,
 				4DBE891125CF547A001EA789 /* CourseDetail.swift in Sources */,
